@@ -10,6 +10,7 @@
 \usepackage{stmaryrd}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{float}
 
 \begin{document}
 \maketitle
@@ -18,11 +19,12 @@
 Dieser Text soll eine kurze Einführung in das Thema Segeln sein. Er versucht neuen Seglern die Grundbegriffe näher zu bringen, um mit einen erfahrenen Skipper eine längere Tour durchführen zu können.
 \end{abstract}
 
-\section{Begriffe}
-Dies sind die wichtigsten Begriffe, die alle Mitsegler kennen sollten, damit der Skipper präzise Anweisungen geben kann. Dies erhöht die Sicherheit und vermeidet Chaos.
+\section{Wichtige Begriffe}
+Dies sind die wichtigsten Begriffe, die alle Mitsegler kennen sollten, damit der Skipper präzise Anweisungen geben kann.
 
-\paragraph{Windrichtung}
-Die Windrichtung ist für jeden leicht ersichtlich. Was nicht intuitiv zu verstehen ist, wie die Windrichtung angegeben wird. Die Windrichtung ist die Himmelsrichtung aus der der Wind kommt. Also Windrichtung NE heißt der Wind kommt aus Nord-Ost.
+Diese Begriffe und weiteres notwendiges Wissen werden wir auf dem Boot selber erneut besprechen. Dabei werden wir euch auch die notwendigen Knoten beibringen.
+
+Diese Liste soll euch ein Grundgerüst an Wissen vermitteln, daher sind viele Punkte nicht in allen Aspekten erläutert.
 
 \paragraph{Bug}
 Der vordere Teil des Bootes. Dies bezieht sich auf die Fahrtrichtung also der Teil des Bootes der spitz zuläuft.
@@ -37,7 +39,7 @@ In Fahrtrichtung gesehen die linke Seite des Bootes. Den Seiten den Bootes werde
 In Fahrtrichtung gesehen die rechte Seite des Bootes. Die zugewiesene Farbe für Steuerbord ist \textbf{grün}.
 
 \paragraph{Luv}
-Dem Wind zugewandte Seite des Bootes.
+Dem Wind zugewandte Seite des Bootes. Kommt der Wind von Backbord, ist dies die Luv-Seite.
 
 \paragraph{Lee}
 Dem Wind abgewandte Seite des Bootes.
@@ -46,10 +48,26 @@ Dem Wind abgewandte Seite des Bootes.
 \textbf{Kleine Hilfe:} \textit{Spuckst du in Lee geht's in de See, spuckst du in Luv kommt es wieder ruf.}
 \end{quote}
 
+\begin{figure}[h!]
+\begin{center}
+\label{himmelsrichtungen}
+\includegraphics[scale=0.4]{bilder/windrose.pdf}
+\end{center}
+\caption{Himmelsrichtungen}
+\end{figure}
+
+\paragraph{Himmelsrichtung}
+Hiermit werden Richtungen auf einem Boot angegben. Dies geschieht entweder in Grad(0-360$^\circ$) oder in den gröberen Himmelrichtungen, wie man in Bild \ref{himmelsrichtungen} sieht. Beides bezeichnet den Winkel zum Erdmagnetfeld und kann auf einem Kompass abgelesen werden.
+
+\textbf{Achtung:} Positionen werden auch in Grad(außerdem Minuten und Sekunden) angegeben, hierbei ist allerdings der Winkel auf dem Erdball gemeint.
+
+\paragraph{Windrichtung}
+Die Windrichtung ist für jeden leicht ersichtlich. Was nicht intuitiv zu verstehen ist, wie die Windrichtung angegeben wird. Die Windrichtung ist die Himmelsrichtung aus der der Wind kommt. Also Windrichtung NE heißt der Wind kommt aus Nord-Ost.
+
 \paragraph{Kurs}
 Ein Kurs kann auf einen Segelboot zwei Bedeutungen haben. Zum einen bezeichnet es den Kurs den das Schiff relativ zum Magnetfeld der Erde macht. Also die Richtung in Grad, die man auf einem Kompass ablesen kann.
 
-Außerdem kann ein Kurs den Kurs zum Wind bezeichnen. Die Kurse unterscheidet man nach dem Winkel zwischen der Windrichtung und Fahrtrichtung des Bootes.
+Außerdem kann ein Kurs den Kurs zum Wind bezeichnen. Die Kurse unterscheidet man nach dem Winkel zwischen der Windrichtung und Fahrtrichtung des Bootes. Diese Kurse zum Wind werden nur grob in Am-Wind-Kurs, Halbwindkurs, Raumwindkurs und Vorwindkurs eingeteilt, aber dies werdet ihr auf dem Boot kennen lernen.
 
 \paragraph{Tampen}
 Seil
@@ -68,7 +86,7 @@ Dies geschieht über Schoten - Tampen, die an den Segeln befestigt sind. Jedes S
 \end{figure}
 
 \paragraph{Fallen}
-Um die Segel aufzuspannen sind sie oben an der Mastspitze befestigt. Diese Befestigungen werden mit Tampen realisiert, die von der Mastspitze am Mast entlang oder im Mast geführt werden. Diese Tampen werden Fallen genannt.
+Um die Segel aufzuspannen sind sie oben an der Mastspitze(\textit{Mast} siehe Bild \ref{segel}) befestigt. Diese Befestigungen werden mit Tampen realisiert, die von der Mastspitze am Mast entlang oder im Mast geführt werden. Diese Tampen werden Fallen genannt.
 
 \paragraph{Wanten und Stagen (Stehendes Gut)}
 Der Mast wird mit Stahlseilen am Boot verspannt. Würde man dies nicht tun, würde der Mast beim Segeln unter der Belastung abbrechen.
@@ -84,9 +102,12 @@ Manöver bei dem der Winkel zwischen Fahrtrichtung und Wind \textbf{verkleinert}
 \paragraph{Abfallen}
 Manöver bei dem der Winkel zwischen Fahrtrichtung und Wind \textbf{vergrößert} wird.
 
-\section{Segel}
+\paragraph{Skipper}
+Der Skipper trägt die zivil- und strafrechtliche Verantwortung für die Sicherheit von Schiff und Besatzung.
 
-\begin{figure}[h!]
+\section{Die Segel}
+
+\begin{figure}[H]
 \begin{center}
 \label{segel}
 \includegraphics[scale=0.2]{bilder/yacht.png}
