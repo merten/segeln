@@ -8,3 +8,5 @@ Bildquellen
 
 http://de.wikipedia.org/w/index.php?title=Datei:Schoten.png
 http://en.wikipedia.org/wiki/File:Brosen_windrose.svg
+https://de.wikipedia.org/w/index.php?title=Datei:Manilles.jpg
+https://de.wikipedia.org/w/index.php?title=Datei:Utka_sail.jpg
