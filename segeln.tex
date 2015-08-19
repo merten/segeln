@@ -14,9 +14,10 @@
 \usepackage{color}
 \usepackage{float}
 
-\definecolor{grey}{gray}{0.50}
+\definecolor{grey}{gray}{0.40}
 \setlength{\fboxrule}{2pt}
 \newcommand{\xbox}[1]{\vspace{1em}\fcolorbox{grey}{white}{\parbox{0.8\textwidth}{\textcolor{grey}{#1}}}}
+\newcommand{\xboxf}[2]{\vspace{1em}\fcolorbox{grey}{white}{\parbox{#1}{\textcolor{grey}{#2}}}}
 
 \begin{document}
 \maketitle
@@ -76,6 +77,8 @@ Klemmen für Tampen an Bord. Sie sind in der Regel im Cockpit angebracht und fix
 Seilwinde im Cockpit zum dichtholen der von Tampen. Die Tampen werden mindestens drei Mal um den Winschkörper geschlungen um die Last aufzunehmen und danach in die Führung gelegt.
 Mit Hilfe der Kurbel lässt sich der Tampen nun dichtholen.
 
+\begin{minipage}{0.9\textwidth}
+\begin{minipage}{0.45\textwidth}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.2]{bilder/winch.jpg}
@@ -83,8 +86,10 @@ Mit Hilfe der Kurbel lässt sich der Tampen nun dichtholen.
 \caption{Winsch}
 \label{winsch}
 \end{figure}
-
-\xbox{Eine Winsch kann sehr große Kräfte aufnehmen. Deswegen: erst schauen wo es klemmt bevor man mit Gewalt kurbelt.}
+\end{minipage}
+\hfill
+\makebox[0.45\textwidth]{\xboxf{0.45\textwidth}{Eine Winsch kann sehr große Kräfte aufnehmen. Deswegen: erst schauen wo es klemmt bevor man mit Gewalt kurbelt.}}
+\end{minipage}
 
 %--------------------------------
 % BEGRIFFE
